@@ -1,0 +1,93 @@
+Logs
+
+logs
+.log
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+Dependency directories
+
+node_modules/
+/node_modules
+/jspm_packages/
+
+Build/Dist directories (Vite, general)
+
+/dist
+/build
+/out
+/public
+dist-ssr
+
+Environment variables & Local Config
+
+.env
+.env.development
+.env.production
+.env.local
+.env.testing
+*.local
+
+OS generated files
+
+.DS_Store
+Thumbs.db
+
+IDEs and other tools (Visual Studio Code, JetBrains, etc.)
+
+.vscode/
+!.vscode/extensions.json  # Permet de suivre les extensions recommandées
+.idea/
+.history
+*.sublime-workspace
+*.suo
+.ntvs
+*.njsproj
+*.sln
+*.sw?
+
+Python/Backend specific files (Assuming a Python TTS backend)
+
+pycache/
+*.pyc
+*.pyo
+venv/
+.venv/
+/htmlcov
+
+React/Vite specific
+
+vite-cache/
+.npm
+
+
+#-------------------------------------------------------------------------|
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
