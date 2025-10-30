@@ -24,42 +24,40 @@ Ce projet se divise en deux parties principales :
 
 Frontend (UI) :
 
-Technologie : React.js (développé pour être lancé via un outil comme Vite).
+Technologie : React.js (Vite).
 
-Fichier Clé : App.jsx (contient toute la logique et le style de l'interface).
+Fichier Clé : src/App.jsx.
 
 Backend (API) :
 
-Technologie : Python avec le framework FastAPI (implémentation non incluse ici, mais requise pour le fonctionnement).
+Technologie : Python avec le framework FastAPI.
 
 Endpoint Requis : Le service doit exposer un endpoint POST /tts sur http://127.0.0.1:8001.
 
-🚀 Mise en Route (Procédure Git)
+🚀 Démarrage Rapide
 
-Une fois les fichiers du projet organisés, utilisez les commandes suivantes dans votre terminal pour initialiser votre dépôt et le lier à GitHub.
+Prérequis
 
-1. Initialisation Locale et Fichiers
+Node.js (avec npm ou yarn)
 
-Assurez-vous que vos fichiers de code (App.jsx, README.md, .gitignore, etc.) sont dans le répertoire de votre projet.
+Le service Backend Kokoro TTS démarré sur http://127.0.0.1:8001.
 
-2. Commandes Git
+1. Installation des Dépendances
 
-# Initialiser le dépôt Git local
-git init
+Dans le répertoire du frontend :
 
-# Ajouter tous les fichiers au suivi (sauf ceux exclus par .gitignore)
-git add .
-
-# Enregistrer les modifications avec un message descriptif
-git commit -m "Initial commit: Setup project structure and functional TTS UI"
-
-# --- Étape de Liaison à GitHub (Remplacer L'URL) ---
-
-# Remplacer <VOTRE_URL_GITHUB> par l'URL fournie par GitHub après la création du dépôt en ligne.
-git remote add origin <VOTRE_URL_GITHUB>
-
-# Envoyer le code vers la branche principale sur GitHub
-git push -u origin main
+npm install
+# ou
+yarn install
 
 
-Votre projet est maintenant versionné, sauvegardé sur GitHub, et prêt pour les prochaines étapes de développement ou de déploiement !
+2. Lancement de l'Application
+
+Lancez le serveur de développement :
+
+npm run dev
+# ou
+yarn dev
+
+
+L'application sera accessible sur http://localhost:5173 (ou un port similaire).
